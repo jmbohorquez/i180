@@ -1,0 +1,60 @@
+
+.portafolio_wrap{
+    background: rgb(39,2,90);
+    background: linear-gradient(140deg, rgba(39,2,90,1) 0%, rgba(28,143,232,1) 100%);
+    position: relative;
+}
+.portafolio_particulas{
+    height: 100vh;
+    opacity: .8;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    canvas{
+        background-color: rgba(28, 143, 232, 0) !important;
+    }
+}
+.portafolio_cabecera{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    height: 70vh;
+    position: relative;
+    z-index: 2;
+
+    svg{
+        height: 80px;
+        fill: #FFF;
+        width: auto;
+    }
+
+    h1{
+        color: #FFF;
+        font-size: 3rem;
+        margin: 1rem 0 1rem;
+        text-transform: uppercase;
+    }
+
+    p{
+        color: #FFF;
+        font-size: 1.6rem;
+        margin-top: 0;
+        max-width: 40%;
+    }
+}
+.portafolio_main_body{
+    position: relative;
+    z-index: 3;
+}
+
+.portafolio_grid{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+    padding-bottom: 4rem;
+}
+.portafolio_item{
+    position: relative;
+    width: calc(50% - 1rem);
+}

@@ -1,0 +1,13 @@
+@use '../abstracts/colors' as *;
+
+$tcolors: $color-1, $color-2, $color-3, $color-4;
+
+@each $tcolor in $tcolors{
+    
+    $i: index($tcolors, $tcolor );
+    
+    .text-color-#{ $i }{
+        color: $tcolor;
+    }
+
+}

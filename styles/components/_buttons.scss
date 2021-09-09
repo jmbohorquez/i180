@@ -1,0 +1,55 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
+.btn{
+    border-radius: 4px;
+    display: flex;
+    color: #FFF;
+    flex-flow: row nowrap;
+    font-family: $font-2;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    width: fit-content;
+
+    span{
+        align-items: center;
+        border-left: solid 1px rgba( 255, 255, 255, .2 );
+        display: flex;
+        padding: 0 1.5rem;
+        justify-content: center;
+    }
+
+    &:before{
+        align-items: center;
+        border-right: solid 1px rgba( 0, 0, 0, .2 );
+        display: flex;
+        justify-content: center;
+        content: '\002b';
+        color: #FFF;
+        font-size: 32px;
+        font-weight: 400;
+        height: 64px;
+        transition: all .3s ease-in-out;
+        width: 64px;
+    }
+
+    &.bg_rojo{
+        background-color: $color-2;
+        border-bottom:solid 1px #C20435;
+    }
+    &.bg_verde{
+        background-color: $color-3;
+        border-bottom:solid 1px #659407;
+    }
+
+    &:hover{
+        background-color: #333;
+        border-bottom: solid 1px #000;
+
+        &:before{
+            color:$color-2;
+        }
+    }
+
+}

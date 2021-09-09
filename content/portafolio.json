@@ -1,0 +1,16 @@
+{
+    "portafolio":[
+        {
+            "index": 1,
+            "empresa":"Smoking Molly",
+            "slug":"smoking-molly",
+            "titulo":"Sitio web responsive para eventos",
+            "descripcion":"Sitio web basado en WordPress con theme hecho completamente a medida.",
+            "tecnologia": [
+                "html5", "css3", "js", "wp"
+            ],
+            "anio": 2016,
+            "ft_image": "/images/portafolio/smoking-molly/ft-image.png"
+        }
+    ]
+}

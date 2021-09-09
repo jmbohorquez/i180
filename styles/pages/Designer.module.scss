@@ -1,0 +1,98 @@
+@use '../abstracts/colors' as *;
+
+.title_pack{
+    span{
+        color: #FFF;
+        font-family: "Roboto Mono", monospace;
+        font-size: 1.2rem;
+    }
+    h2{
+        color: #000;
+        font-size: 4.3rem;
+        font-style: italic; 
+        margin-top: 0;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+}
+.designer_page_wrap{
+    position: relative;
+}
+.designer_image_bg{
+    background-color: black;
+    position: absolute;
+    height: 75%;
+    width: 100%;
+    z-index: 0;
+}
+.designer_banner{
+    position: relative;
+    z-index: 1;
+
+    h1{
+        line-height: 100%;
+    }
+}
+.designer_text_container{
+    position: relative;
+
+    &::before{
+        background-color: $color-5;
+        bottom: 0;
+        content: '';
+        position: absolute;
+        height: 85%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        width: 70%;
+        z-index: 0;
+    }
+}
+.designer_text_wrap{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+.designer_text{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 720px;
+    padding: 0 9rem;
+    width: 50%;
+
+    a{
+        margin-top: 2rem;
+    }
+}
+.desiner_UX{
+    margin-top: 400px;
+}
+.desiner_UI{
+    align-items: flex-end;
+
+    .title_pack{
+        span, h2{
+            display: block;
+            text-align: right;
+        }
+    }
+
+    p{
+        text-align: right;
+    }
+
+}
+.designer_dot_bg{
+    background-image: radial-gradient(rgba( 255,255,255,.1 ) 8px, transparent 8px);
+    background-size: 28px 28px;
+    bottom: 0;
+    height: 85%;
+    position: absolute;
+    right: 0;
+    width: 85%;
+    z-index: 1;
+}

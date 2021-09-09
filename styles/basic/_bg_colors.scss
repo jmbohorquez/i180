@@ -1,0 +1,13 @@
+@use '../abstracts/colors' as *;
+
+$colors: $color-1, $color-2, $color-3, $color-4, $color-5, $color-6;
+
+@each $color in $colors{
+    
+    $i: index($colors, $color );
+    
+    .bg-color-#{ $i }{
+        background-color: $color;
+    }
+
+}

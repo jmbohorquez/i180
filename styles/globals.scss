@@ -1,0 +1,29 @@
+@forward './abstracts/normalize';
+
+/* ========================================================== Tags */
+
+@forward './basic/tags';
+
+/* ========================================================== Maquetado */
+
+@forward './basic/maquetado';
+@forward './components/buttons';
+@forward './basic/bg_colors';
+@forward './basic/text_colors';
+
+/* ========================================================== Header */
+
+@forward './components/header';
+@forward './components/main_menu';
+
+/* ========================================================== Inicio */
+
+@forward './pages/inicio';
+
+/* ========================================================== Redes */
+
+@forward './components/redes';
+
+/* ========================================================== Footer */
+
+@forward './components/footer';

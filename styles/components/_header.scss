@@ -1,0 +1,82 @@
+@use '../abstracts/colors' as *;
+
+.header{
+    padding: 1rem 0;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 9999;
+    
+    .site-wrap{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+}
+.header-logo{
+    height: 32px;
+
+    svg{
+        height: 100%;
+        width: auto;
+    }
+}
+.header-menu-boton{
+    display: flex;
+    height: 32px;
+    flex-flow: column;
+    justify-content: center;
+    width: 32px;
+
+    .line-two{
+        background-color: $color-1;
+    }
+
+    &.cerrar{
+
+        .line-one{
+            transform: rotate(45deg) translate( 5px, 5px );
+        }
+        .line-two{
+            opacity: 0;
+        }
+        .line-three{
+            transform: rotate(-45deg) translate( 6px, -7px );
+        }
+
+        &:hover{
+            .line-one{
+                transform: rotate(45deg) translate( 4px, 4px );
+            }
+            .line-three{
+                transform: rotate(-45deg) translate( 4px, -5px );
+            }
+        }
+    }
+
+    span{
+        background-color: #FFF;
+        border-radius: 2px;
+        display: block;
+        height: 4px;
+        width: 100%;
+        transition: all .2s ease-in-out;
+
+        &.line-two{
+            margin: 4px 0;
+        }
+    }
+
+    &:hover{
+
+        span{
+            border-radius: 1px;
+            height: 2px;
+
+            &.line-one, &.line-three{
+                background-color: $color-1;
+            }
+        }
+
+    }
+}

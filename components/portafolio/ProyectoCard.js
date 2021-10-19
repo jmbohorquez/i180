@@ -50,7 +50,7 @@ const ProyectoCard = ({ index, titulo, desc, techno, empresa, anio, url, ft_imag
                 <h3 className="card-titulo">{ titulo }</h3>
                 <p className="card-description">{ desc }</p>
             </div>
-            <Link href={ url }>
+            <Link href={`portafolio${ url }`}>
                 <a className="card-link"><span>Ver proyecto</span></a>
             </Link>
         </Tilt>

@@ -4,13 +4,49 @@
             "index": 1,
             "empresa":"Smoking Molly",
             "slug":"smoking-molly",
-            "titulo":"Sitio web responsive para eventos",
+            "titulo":"Sitio web responsive para reserva de eventos",
             "descripcion":"Sitio web basado en WordPress con theme hecho completamente a medida.",
             "tecnologia": [
                 "html5", "css3", "js", "wp"
             ],
-            "anio": 2016,
-            "ft_image": "/images/portafolio/smoking-molly/ft-image.png"
+            "anio": {
+                "inicio": 2016,
+                "fin": "-"
+            },
+            "ft_image": "/images/portafolio/smoking-molly/ft-image.png",
+            "page":{
+                "cabecera": {
+                    "desktop":"/images/portafolio/smoking-molly/desktop.png",
+                    "tablet":"/images/portafolio/smoking-molly/tablet.png",
+                    "phone":"/images/portafolio/smoking-molly/phone.png"
+                },
+                "subtitulo": "Web App de Reservas: UI, Frontend, Backend",
+                "intro": "Smoking Molly es un venue, ubicado en Bogotá, Colombia, Un lugar de eventos en vivo donde se presentan bandas de rock, jazz, blues y tienen días especiales de stand up comedy.  El lugar ofrece una cocina inspirada en los sabores del sur de USA así como coctelería de autor.",
+                "vista_general": "Smoking Molly quiere un sitio web fácil y rápido de actualizar, además que refleje el estilo y personalidad del lugar y que atraiga y agrupe a sus clientes. El sitio debe anunciar su cartelera de eventos semanales, organizados por fecha, sus promociones y su menú, pero lo más importante es que sus clientes puedan hacer las reservas de sus eventos a través de la aplicación web.",
+                "role": "UI Designer, Frontend y Backend",
+                "herramientas": "Photoshop, Adobe XD, VS Code y Xamp",
+                "usuario": "El grupo objetivo son hombres y mujeres de edades que oscilan entre 25 y 48 años aficionados a la música, que gustan de la vida nocturna, y la vida social. Descubren eventos musicales en línea y compran música a través de las plataformas en Internet y canales de streaming.",
+                "propuesta": "Para Smoking Molly propuse un sitio web con un diseño de texturas grunge que de la sensación de algo genuino de la vida real y evoque las mejores décadas del rock. La diagramación del sitio estará basada en una retícula a 12 columnas que mostrará  textos, botones y tarjetas de forma más estructurada dándole al usuario un entorno más familiar y haciendo muy rápida la curva de aprendizaje de uso. La paleta de color debía ser muy básica, de no más de tres colores y con predominancia de negro y gris, para que las fotografías sean las que destaquen y además se cree una atmosfera nocturna y bohemia.",
+                "tipografia":[],
+                "colores":[],
+                "muckup":[]
+            }
+        },
+        {
+            "index": 2,
+            "empresa":"Gilma E. Garrido",
+            "slug":"gilma-garrido",
+            "titulo":"Web responsive para centro médico",
+            "descripcion":"Sitio web desarrollado con Next JS conectado con wordpress a través de API",
+            "tecnologia": [
+                "reactjs", "nextjs", "wp"
+            ],
+            "anio": {
+                "inicio": 2014,
+                "fin": "-"
+            },
+            "ft_image": "/images/portafolio/smoking-molly/ft-image.png",
+            "page":{}
         }
     ]
 }

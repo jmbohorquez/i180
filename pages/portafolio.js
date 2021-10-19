@@ -29,7 +29,6 @@ const Portafolio = () => {
                 </div>
                 <div className={ styles.portafolio_main_body }>
                     <div className={`site-wrap ${ styles.portafolio_grid }`}>
-
                         {
                             contenidoPortafolio.map( item => (
                                 <div key={ item.index } className={ styles.portafolio_item }>
@@ -39,7 +38,7 @@ const Portafolio = () => {
                                         desc={ item.descripcion }
                                         techno={ item.tecnologia }
                                         empresa={ item.empresa }
-                                        anio={ item.anio }
+                                        anio={ item.anio.inicio }
                                         url={ `/${ item.slug }` }
                                         ft_image={ item.ft_image }
                                     />

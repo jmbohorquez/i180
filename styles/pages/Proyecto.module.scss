@@ -1,0 +1,168 @@
+@use '../abstracts/colors' as *;
+
+.cabecera_container{
+    background: linear-gradient(-45deg, #681191, #1669b8, $color-2, #ee8b52);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+    position: relative;
+}
+.cabecera_parallax_container{
+    height: 600px;
+    margin: auto;
+    position: relative;
+    top: 4rem;
+    width: 1067px;
+}
+.cabecera_image_container{
+    height: 100%;
+    width: 100%;
+
+    .container{
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+}
+.cabecera_text_container{
+    padding: 2rem 0 6rem;
+}
+.cabecera_titulo{
+    color: #FFF;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cabecera_subtitulo{
+    color: #FFF;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 900;
+    margin-top: 8px;
+    text-align: center;
+}
+.cabecera_descipcion{
+    color: #FFF;
+    font-size: 1.6rem;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.proyecto_main_body{
+    padding-bottom: 4rem;
+    position: relative;
+}
+.proyecto_panel{
+    padding-top: 4rem;
+}
+.proyecto_vista_general{
+    width: 60%;
+
+    svg{
+        height: 80px;
+        fill: $color-1;
+        width: auto;
+    }
+}
+.role_herramientas_tiempo{
+    width: 50%;
+}
+.role_container{
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 1rem;
+    padding: 1rem 0;
+    
+    svg{
+        height: 42px;
+        fill: $color-1;
+        width: auto;
+    }
+    h3{
+        margin: 0;
+    }
+    p{
+        margin: 0;
+    }
+}
+.role_icon_container{
+    text-align: center;
+    width: 43px;
+}
+.role_text_container{
+    flex: 1;
+}
+.usuario{
+    bottom: 0;
+    padding: 4rem;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    z-index: 999;
+
+    h2{
+        font-size: 2rem;
+    }
+    
+    svg{
+        height: 96px;
+        fill: $color-4;
+        width: auto;
+    }
+}
+.propuesta_panel{
+    position: relative;
+}
+.propuesta{
+    padding: 4rem 4rem 4rem 0;
+    width: 50%;
+
+    svg{
+        height: 80px;
+        fill: $color-7;
+        width: auto;
+    }
+}
+.descripcion{
+    padding: 4rem;
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 50%;
+    z-index: 999;
+
+    p{
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+}
+.descripcion_iconos{
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 1.5rem;
+    text-align: center;
+
+    div{
+        height: 80px;
+        width: 80px;
+
+        svg{
+            height: 100%;
+        }
+    }
+}

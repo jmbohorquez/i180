@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+/*import { useEffect, useRef } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Parallax from 'parallax-js'
@@ -35,7 +35,7 @@ const Proyecto = ({ page }) => {
     return(
         <>
             <Head>
-                <title>  | Julian Bohorquez</title>
+                <title> { page.empresa } | Julian Bohorquez</title>
                 <meta name="description" content="Tengo más de 20 años de experiencia en diseño web, diseño de interfaces de usuario, estrategia para medios digitales y programación del lado del servidor" />
             </Head>
             <section className={`panel ${ styles.cabecera_container }`}>
@@ -76,7 +76,7 @@ const Proyecto = ({ page }) => {
                 </div>
                 <div className={ styles.cabecera_text_container }>
                     <div className="site-wrap">
-                        <h1 className={ styles.cabecera_titulo }></h1>
+                        <h1 className={ styles.cabecera_titulo }>{ page.empresa }</h1>
                         <h3 className={ styles.cabecera_subtitulo }>{ page.titulo }</h3>
                         <p className={ styles.cabecera_descipcion }>{ page.page.intro }</p>
                     </div>
@@ -177,3 +177,4 @@ export const getStaticProps = async ({ params }) => {
 }
 
 export default Proyecto
+*/

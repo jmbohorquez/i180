@@ -74,11 +74,7 @@ const QuienSoy = () => {
             </div>
             <div className={`bg-color-3 ${ styles.cta_cierre_container }`}>
                 <div className={`site-wrap ${ styles.cta_cierre_wrap }`}>
-                    <Link
-                        href="#"
-                    >
-                        <a className="btn bg_rojo"><span>Ver portafolio</span></a>
-                    </Link>
+        
                     <p className={ styles.cta_copy }>Siempre experimentando, <br />siempre aprendiendo…</p>
                 </div>
             </div>

@@ -43,11 +43,6 @@ const Developer = () => {
                         </div>
                         <p>Me preocupo por mantener un código limpio, organizado, optimizado y siguiendo los estándares y recomendaciones de buenas prácticas. Mi más amplia experiencia es con HTML, CSS y JavaScript. Soy un apasionado de escribir código en React y sus frameworks, Next y Gatsby</p>
                         <p>Me encanta construir sitios web y PWA funcionales, prácticas y atractivas siempre, pensando primero en las necesidades de los usuarios. Mis sitios web son atractivos,  óptimos, fáciles de usar y sobre todo, muy veloces en su carga.</p>
-                        <Link
-                            href="#"
-                            >
-                            <a className="btn bg_rojo"><span>Ver portafolio</span></a>
-                        </Link>
                     </div>
                     <div className={ styles.frontend_aside }>
                         <div className={ styles.frontend_ilustracion }>
@@ -63,11 +58,7 @@ const Developer = () => {
                         <h2>Back<i className="text-color-2">end_</i></h2>
                     </div>
                     <p>Más de 13 años desarrollando y manteniendo tecnología creada con PHP y MySQL y desde hace 2 años creando poderosas RESTApis con NodeJS y MongoDB.</p>
-                    <Link
-                        href="#"
-                        >
-                        <a className="btn bg_verde"><span>Ver portafolio</span></a>
-                    </Link>
+                    
                     <div className={ styles.dibujos_container }>
                     <div className={ styles.backend_ilustracion_container }>
                             <BackEnd />
@@ -85,11 +76,6 @@ const Developer = () => {
                     <h2><Wordpress /> Wordpress_</h2>
                     <p>Soy experto en desarrollo de sitios web basados en Wordpress.Tengo la capacidad de crear temes, bloques y plugins para esta plataforma.</p>
                     <p>Tengo amplia experiencia creando sitios web a medida evitando al máximo la instalación de plugins lo que hace que mis sitios web carguen muy rápido y cumplan con las recomendaciones de google en buenas prácticas. </p>
-                    <Link
-                        href="#"
-                        >
-                        <a className="btn bg_verde"><span>Ver portafolio</span></a>
-                    </Link>
                 </div>
             </div>
         </>

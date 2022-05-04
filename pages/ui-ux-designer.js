@@ -35,11 +35,7 @@ const UiDesigner = () => {
                                 <h2>UX Designer</h2>
                             </div>
                             <p>Defino de forma asertiva los procesos y la forma en la que los usuarios van a interactuar con un sitio web o una aplicación. Abordo los problemas de acceso a la información desde la perspectiva de los usuarios, identificando las oportunidades para dejar en ellos la sensación de una gran experiencia.</p>
-                            <Link
-                                href="#"
-                                >
-                                <a className="btn bg_rojo"><span>Ver portafolio</span></a>
-                            </Link>
+                            
                         </div>
                         <div className={`bg-color-1 ${ styles.designer_text } ${ styles.desiner_UI }`}>
                             <div className={ styles.title_pack }>
@@ -47,11 +43,7 @@ const UiDesigner = () => {
                                 <h2>UI Designer</h2>
                             </div>
                             <p>Investigo a fondo el grupo objetivo para saber que les es familiar y así establecer directrices claras y estratégicas para el diseño de la interfaz de usuarios logrando una navegación agradable, clara y rápida. </p>
-                            <Link
-                                href="#"
-                                >
-                                <a className="btn bg_rojo"><span>Ver portafolio</span></a>
-                            </Link>
+                            
                         </div>
                     </div>
                     <div className={ styles.designer_dot_bg }></div>

@@ -38,13 +38,6 @@ const MainMenu = ({ showMenu, setShowMenu }) => {
                         <a onClick={ () => setShowMenu( false ) }>UI / UX Designer</a>
                     </Link>
                 </li>
-                <li>
-                    <Link
-                        href="/portafolio"
-                    >
-                        <a onClick={ () => setShowMenu( false ) }>Portafolio</a>
-                    </Link>
-                </li>
             </ul>
         </nav>
     );

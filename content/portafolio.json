@@ -31,22 +31,6 @@
                 "colores":[],
                 "muckup":[]
             }
-        },
-        {
-            "index": 2,
-            "empresa":"Gilma E. Garrido",
-            "slug":"gilma-garrido",
-            "titulo":"Web responsive para centro médico",
-            "descripcion":"Sitio web desarrollado con Next JS conectado con wordpress a través de API",
-            "tecnologia": [
-                "reactjs", "nextjs", "wp"
-            ],
-            "anio": {
-                "inicio": 2014,
-                "fin": "-"
-            },
-            "ft_image": "/images/portafolio/smoking-molly/ft-image.png",
-            "page":{}
         }
     ]
 }

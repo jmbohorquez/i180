@@ -29,11 +29,6 @@ const QuienSoy = () => {
                             <p className={ styles.intro }>Hola, soy Julian Bohorquez</p>
                             <h3>Diseñador, programador y fotógrafo, ubicado actualmente en bogotá, colombia.</h3>
                             <p className={ styles.descripcion }>Tengo más de 20 años de experiencia en diseño web, diseño de interfaces de usuario, estrategia para medios digitales y programación.</p>
-                            <Link
-                                href="#"
-                                >
-                                <a className="btn bg_rojo"><span>Ver portafolio</span></a>
-                            </Link>
                         </div>
                     </div>
                 </div>

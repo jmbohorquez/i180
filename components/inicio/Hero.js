@@ -1,4 +1,3 @@
-import MediaQuery from 'react-responsive'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -23,9 +22,9 @@ const Hero = () => {
                         <p className={ sty.intro }>Soy Julian Bohorquez</p>
                         <h3><strong>Diseño interfaces de usuario</strong> estratégicas, modernas y amigables programadas con código <strong>elegante, limpio y eficiente.</strong></h3>
                         <Link
-                            href="/portafolio"
-                            >
-                            <a className="btn bg_verde"><span>Ver portafolio</span></a>
+                            href="/quien-soy"
+                        >
+                            <a className="btn bg_verde"><span>Saber más</span></a>
                         </Link>
                     </div>
                 </div>
